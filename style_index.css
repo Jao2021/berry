@@ -15,6 +15,7 @@ h1{
     font-size: 55px;
 }
 
+
 header{
     display: flex;
     justify-content: space-around;
@@ -41,7 +42,82 @@ header{
 }
 
 .container{
-    /*background-image: linear-gradient(to right bottom, rgba(3, 34, 48, 1), rgba(88, 194, 243, 1));-!>*/
+    /*background-image: linear-gradient(to right bottom, rgba(3, 34, 48, 1), rgba(88, 194, 243, 1));*/
     background-color: rgba(3, 34, 48, 1);
+    height: 70%;
+    
+}
+
+#title-mid{
+    text-align: center;
+    height: 40%;
+    width: 100%;
+    padding-top: 7%;
+}
+
+#title-mid a{
+    color: white;
+    font-size: 50px;
+}
+
+#title-mid h4{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+.webs{
+    margin-top: 120px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.webs img{
+    background-color: aqua;
+    width: 300px;
+    height: 400px;
+}
+
+.features{
+    padding-top: 30%;
     height: 60%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.feat{
+    height: 50%;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid lightgrey;
+    align-items: center;
+}
+
+
+
+.feat img{
+    height: 200px;
+    width: 30%;
+    filter: grayscale(100%);
+    transition: .3s;
+}
+
+.feat img:first-child{
+    width: 20%;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+.feat img:hover{
+    filter: grayscale(0%)
+}
+
+
+footer{
+    background-color: #064360;
+    height: 30%;
 }
