@@ -6,12 +6,20 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
+        <header id="head">
             
             <h1 class="title">berry</h1>
             <div class="menu">
-                <a href="">Pages</a>
-                <a href="">Features</a>
+                <a href="#head">Home</a>
+                <a href="#webs">Pages</a>
+                <a href="#footer">Features</a>
+                <button class="cta">
+                    <span>Buy Now</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </button>
             </div>
         </header>
         <div class="container">
@@ -19,24 +27,44 @@
                 <a>Choose the perfect template for your goals</a>
                 <h4>The best design ideas for your website </h4>
             </div>
-            <div class="webs">
-                <img src="">
-                <img src="">
+            <div id="webs">
+                <div class="temp">
+                    <img src="">
+                    <a>Template 1</a>
+                </div>
+                <div class="temp">
+                    <img src="">
+                    <a>Education</a>
+                </div>
             </div>
         </div>
-
-        <div class="features">
-            <div class="feat">
-                <img src="img/html.png">
-                <img src="img/css.png">
-                <img src="img/js.png">
+        <div id="feature">
+            <h4>Features</h4>
+            <div class="features">
+                <div class="feat">
+                    <img src="img/html.png">
+                    <img src="img/css.png">
+                    <img src="img/js.png">
+                </div>      
             </div>
-                        
         </div>
-        
-        <footer>
             
+        <footer id="footer">
+            <h1 class="title-footer">berry</h1>
+            <div class="menu">
+                <a href="#head">Home</a>
+                <a href="#webs">Pages</a>
+                <a href="#footer">Features</a>
+                <button class="cta">
+                    <span>Buy Now</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </button>
+            </div>
         </footer>
+        <div id="copy"><a>© Copyright 2023 berry. All rights reserved.</a></div>
     </body>
 </html>
 
