@@ -29,7 +29,7 @@ header{
 
 
 .menu{
-    padding-top: 2.5vh;
+    padding-top: 1.2vh;
    
 }
 .menu a{
@@ -164,6 +164,11 @@ header{
     height: 400px;
 }
 
+.temp img:hover{
+    filter: grayscale(20%);
+    transition: .3s;
+}
+
 #feature{
     padding-top: 28%;
     height: 50%;
@@ -231,7 +236,7 @@ footer .title-footer{
     font-weight: 600;
 }
 
-.menu{
+footer .menu{
     border-left: 1px solid lightgray;
 }
 
